@@ -50,5 +50,13 @@ Shorten URL for redirection to malicious/suspicious destination.
 * What happened?	A suspicious email that contained a phishing link was sent to a recipient. Recipient/user tried to access/click the Bitly link but was blocked by firewall rule <br>
 * Is it real threat?	Unknown (suspicious indicator) <br>
 * Impact?	Blocked by firewall, no compromise <br>
-* Severity	Low <br>
-* Result: Close or monitor
+* Severity	medium <br>
+* Result: monitor
+
+  **Recommended Actions**
+Verify ownership of 10.20.2.17 and confirm association with the recipient.
+Scan the endpoint for malicious activity.
+Block related IOCs across security controls.
+Search for additional recipients of the same email.
+Review proxy, DNS, and endpoint logs for further interaction attempts.
+Notify the user and provide phishing awareness guidance.
