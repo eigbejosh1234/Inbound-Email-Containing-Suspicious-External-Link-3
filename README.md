@@ -54,9 +54,8 @@ Shorten URL for redirection to malicious/suspicious destination.
 * Result: monitor
 
   **Recommended Actions**<br>
-Verify ownership of 10.20.2.17 and confirm association with the recipient. <br>
-Scan the endpoint for malicious activity. <br>
-Block related IOCs across security controls. <br>
-Search for additional recipients of the same email. <br>
-Review proxy, DNS, and endpoint logs for further interaction attempts. <br>
-Notify the user and provide phishing awareness guidance. <br>
+* Verify ownership of 10.20.2.17 and confirm association with the recipient. <br>
+* Scan the endpoint for malicious activity. <br>
+* Search for additional recipients of the same email. <br>
+* Review proxy, DNS, and endpoint logs for further interaction attempts. <br>
+* Notify the user and provide phishing awareness guidance. <br>
