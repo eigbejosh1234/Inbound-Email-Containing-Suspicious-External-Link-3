@@ -2,7 +2,7 @@
 This alert was triggered by an inbound email contains one or more external links due to potentially suspicious characteristics. As part of the investigation, check firewall or proxy logs to determine whether any endpoints have attempted to access the URLs in the email and whether those connections were allowed or blocked.
 **Note:** The alert is generated from a relisble source (tryhackme).
 
-**ALERT**
+**ALERT** <br>
 * datasource: email
 * timestamp: 06/09/2026 11:59:39.541
 *subject: Your Amazon Package Couldn’t Be Delivered – Action Required
